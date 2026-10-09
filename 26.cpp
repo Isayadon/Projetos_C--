@@ -17,8 +17,6 @@ int main ()
 
     limitedaprestacao = (salarioliquido * 30/100);
 
-
-
     if (salariobruto <= 0)
     {
         cout << "Entrada Invalida!" << endl;
@@ -32,8 +30,6 @@ int main ()
 
         return 0;
     }
-
-
 
     if (valordaprestacao <= limitedaprestacao)
     {
